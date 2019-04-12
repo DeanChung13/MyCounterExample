@@ -12,9 +12,22 @@
 		5C75EC5B2260606B00C04499 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C75EC592260606B00C04499 /* Main.storyboard */; };
 		5C75EC5D2260606D00C04499 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C75EC5C2260606D00C04499 /* Assets.xcassets */; };
 		5C75EC602260606D00C04499 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C75EC5E2260606D00C04499 /* LaunchScreen.storyboard */; };
+		5C75EC6922606E9600C04499 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C75EC6822606E9600C04499 /* AppState.swift */; };
+		5C75EC6C22606EEC00C04499 /* CounterReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C75EC6B22606EEC00C04499 /* CounterReducer.swift */; };
+		5C75EC6F22606F4200C04499 /* CounterAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C75EC6E22606F4200C04499 /* CounterAction.swift */; };
+		5C75EC712260738C00C04499 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C75EC702260738C00C04499 /* NextViewController.swift */; };
+		5C75EC73226073C400C04499 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C75EC72226073C400C04499 /* AppRouter.swift */; };
+		5C75EC752260744C00C04499 /* RoutingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C75EC742260744C00C04499 /* RoutingState.swift */; };
+		5C75EC772260763600C04499 /* RoutingAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C75EC762260763600C04499 /* RoutingAction.swift */; };
+		5C75EC7922607D5D00C04499 /* AppReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C75EC7822607D5D00C04499 /* AppReducer.swift */; };
+		5C75EC7B22607D9A00C04499 /* RoutingReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C75EC7A22607D9A00C04499 /* RoutingReducer.swift */; };
+		5C75EC7D22607E6300C04499 /* CountingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C75EC7C22607E6300C04499 /* CountingState.swift */; };
+		8800B6A968CD8D3D59B2EA3A /* Pods_MyCounterExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A96EDC743BEF2909484C3DD6 /* Pods_MyCounterExample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		33163966219A680897E84BA0 /* Pods-MyCounterExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCounterExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyCounterExample/Pods-MyCounterExample.debug.xcconfig"; sourceTree = "<group>"; };
+		49BC770C33845E5236178290 /* Pods-MyCounterExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCounterExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyCounterExample/Pods-MyCounterExample.release.xcconfig"; sourceTree = "<group>"; };
 		5C75EC522260606B00C04499 /* MyCounterExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCounterExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C75EC552260606B00C04499 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C75EC572260606B00C04499 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +35,17 @@
 		5C75EC5C2260606D00C04499 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C75EC5F2260606D00C04499 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C75EC612260606D00C04499 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C75EC6822606E9600C04499 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		5C75EC6B22606EEC00C04499 /* CounterReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterReducer.swift; sourceTree = "<group>"; };
+		5C75EC6E22606F4200C04499 /* CounterAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterAction.swift; sourceTree = "<group>"; };
+		5C75EC702260738C00C04499 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
+		5C75EC72226073C400C04499 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		5C75EC742260744C00C04499 /* RoutingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingState.swift; sourceTree = "<group>"; };
+		5C75EC762260763600C04499 /* RoutingAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingAction.swift; sourceTree = "<group>"; };
+		5C75EC7822607D5D00C04499 /* AppReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReducer.swift; sourceTree = "<group>"; };
+		5C75EC7A22607D9A00C04499 /* RoutingReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingReducer.swift; sourceTree = "<group>"; };
+		5C75EC7C22607E6300C04499 /* CountingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountingState.swift; sourceTree = "<group>"; };
+		A96EDC743BEF2909484C3DD6 /* Pods_MyCounterExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyCounterExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +53,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8800B6A968CD8D3D59B2EA3A /* Pods_MyCounterExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		550A533856078918B87A6E88 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A96EDC743BEF2909484C3DD6 /* Pods_MyCounterExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5C75EC492260606B00C04499 = {
 			isa = PBXGroup;
 			children = (
 				5C75EC542260606B00C04499 /* MyCounterExample */,
 				5C75EC532260606B00C04499 /* Products */,
+				CC41F80B2FE00884A703D7D2 /* Pods */,
+				550A533856078918B87A6E88 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +90,56 @@
 			isa = PBXGroup;
 			children = (
 				5C75EC552260606B00C04499 /* AppDelegate.swift */,
+				5C75EC6722606E8C00C04499 /* State */,
+				5C75EC6A22606EDA00C04499 /* Reducers */,
+				5C75EC6D22606F2C00C04499 /* Actions */,
 				5C75EC572260606B00C04499 /* ViewController.swift */,
+				5C75EC702260738C00C04499 /* NextViewController.swift */,
+				5C75EC72226073C400C04499 /* AppRouter.swift */,
 				5C75EC592260606B00C04499 /* Main.storyboard */,
 				5C75EC5C2260606D00C04499 /* Assets.xcassets */,
 				5C75EC5E2260606D00C04499 /* LaunchScreen.storyboard */,
 				5C75EC612260606D00C04499 /* Info.plist */,
 			);
 			path = MyCounterExample;
+			sourceTree = "<group>";
+		};
+		5C75EC6722606E8C00C04499 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				5C75EC6822606E9600C04499 /* AppState.swift */,
+				5C75EC742260744C00C04499 /* RoutingState.swift */,
+				5C75EC7C22607E6300C04499 /* CountingState.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		5C75EC6A22606EDA00C04499 /* Reducers */ = {
+			isa = PBXGroup;
+			children = (
+				5C75EC6B22606EEC00C04499 /* CounterReducer.swift */,
+				5C75EC7822607D5D00C04499 /* AppReducer.swift */,
+				5C75EC7A22607D9A00C04499 /* RoutingReducer.swift */,
+			);
+			path = Reducers;
+			sourceTree = "<group>";
+		};
+		5C75EC6D22606F2C00C04499 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				5C75EC6E22606F4200C04499 /* CounterAction.swift */,
+				5C75EC762260763600C04499 /* RoutingAction.swift */,
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		CC41F80B2FE00884A703D7D2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33163966219A680897E84BA0 /* Pods-MyCounterExample.debug.xcconfig */,
+				49BC770C33845E5236178290 /* Pods-MyCounterExample.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +149,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5C75EC642260606D00C04499 /* Build configuration list for PBXNativeTarget "MyCounterExample" */;
 			buildPhases = (
+				084C354C70104F01BADBDFA1 /* [CP] Check Pods Manifest.lock */,
 				5C75EC4E2260606B00C04499 /* Sources */,
 				5C75EC4F2260606B00C04499 /* Frameworks */,
 				5C75EC502260606B00C04499 /* Resources */,
+				3B700404CB50BEFF3B1E1A50 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +210,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		084C354C70104F01BADBDFA1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyCounterExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B700404CB50BEFF3B1E1A50 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MyCounterExample/Pods-MyCounterExample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ReSwift/ReSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyCounterExample/Pods-MyCounterExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5C75EC4E2260606B00C04499 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C75EC6922606E9600C04499 /* AppState.swift in Sources */,
+				5C75EC7B22607D9A00C04499 /* RoutingReducer.swift in Sources */,
+				5C75EC7D22607E6300C04499 /* CountingState.swift in Sources */,
+				5C75EC712260738C00C04499 /* NextViewController.swift in Sources */,
+				5C75EC6C22606EEC00C04499 /* CounterReducer.swift in Sources */,
 				5C75EC582260606B00C04499 /* ViewController.swift in Sources */,
+				5C75EC7922607D5D00C04499 /* AppReducer.swift in Sources */,
+				5C75EC73226073C400C04499 /* AppRouter.swift in Sources */,
 				5C75EC562260606B00C04499 /* AppDelegate.swift in Sources */,
+				5C75EC752260744C00C04499 /* RoutingState.swift in Sources */,
+				5C75EC6F22606F4200C04499 /* CounterAction.swift in Sources */,
+				5C75EC772260763600C04499 /* RoutingAction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +419,7 @@
 		};
 		5C75EC652260606D00C04499 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33163966219A680897E84BA0 /* Pods-MyCounterExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -301,6 +439,7 @@
 		};
 		5C75EC662260606D00C04499 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49BC770C33845E5236178290 /* Pods-MyCounterExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

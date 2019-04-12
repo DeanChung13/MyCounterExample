@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  NextViewController.swift
 //  MyCounterExample
 //
 //  Created by dean.chung on 2019/4/12.
@@ -9,11 +9,11 @@
 import UIKit
 import ReSwift
 
-class ViewController: UIViewController {
+class NextViewController: UIViewController {
   @IBOutlet weak var counterLabel: UILabel!
   override func viewDidLoad() {
     super.viewDidLoad()
-    navigationItem.title = "First"
+    navigationItem.title = "Next"
   }
   
   override func viewWillAppear(_ animated: Bool) {
@@ -30,9 +30,10 @@ class ViewController: UIViewController {
     store.unsubscribe(self)
   }
   
+  
   @IBAction func nextViewController(_ sender: Any) {
 //    store.dispatch(RoutingAction(destination: .next))
-    AppRouter.pushViewController(routing: .next)
+    AppRouter.pushViewController(routing: .first)
   }
   
   @IBAction func increaseCounter(_ sender: Any) {
@@ -43,7 +44,7 @@ class ViewController: UIViewController {
   }
 }
 
-extension ViewController: StoreSubscriber {
+extension NextViewController: StoreSubscriber {
   func newState(state: CountingState) {
     counterLabel.text = "\(state.counter)"
   }
